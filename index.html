@@ -35,7 +35,7 @@
             position: absolute;
             z-index: 1;
             top: 50%;
-            transform: translate(0, -50%);
+            transform: translate(0, -20%);
             border-radius: 20px;
             box-shadow: 0 30px 50px #505050;
         }
@@ -90,8 +90,8 @@
             width: 300px;
             text-align: left;
             padding: 0;
-            color: #eee;
-            transform: translate(0, -50%);
+            color: #000000;
+            transform: translate(0, -150%);
             display: none;
             font-family: system-ui;
         }
@@ -116,6 +116,7 @@
 
         .item button {
             padding: 10px 20px;
+            border-radius: 40%;
             border: none;
             opacity: 0;
             cursor: pointer;
@@ -138,6 +139,7 @@
 
         .buttons {
             position: absolute;
+            color: #fafafa;
             bottom: 30px;
             z-index: 222222;
             text-align: center;
@@ -149,13 +151,13 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: 1px solid #555;
+            border: 10px solid #555;
             cursor: pointer;
             transition: 0.5s;
         }
 
         .buttons button:hover {
-            background-color: #bac383;
+            background-color: #c780e7;
         }
     </style>
     <meta charset="UTF-8">
@@ -184,7 +186,7 @@
                         lenses.
 
                     </div>
-                    <a href="#"><button>See More</button></a>
+                    <!-- <a href="#"><button>See More</button></a> -->
                 </div>
             </div>
             <div class="item" style="background-image: url(9.jpg);">
